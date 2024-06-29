@@ -5,7 +5,7 @@ function distanceFromHqInBlocks(pickupLocation) {
     return distance;
 }
 
-console.log(distanceFromHqInBlocks(50));
+//console.log(distanceFromHqInBlocks(50));
 
 
     function distanceFromHqInFeet(pickupLocation) {
@@ -14,7 +14,7 @@ console.log(distanceFromHqInBlocks(50));
     const feet = blocks * feetPerBlock;
     return feet;
 }
-console.log(distanceFromHqInFeet(50));
+//console.log(distanceFromHqInFeet(50));
 
 
     function distanceTravelledInFeet(startBlock, endBlock) {
@@ -23,24 +23,11 @@ console.log(distanceFromHqInFeet(50));
     const feetTravelled = blocksTravelled * feetPerBlock;
     return feetTravelled;
 }
-console.log(distanceTravelledInFeet(34, 38));
+//console.log(distanceTravelledInFeet(34, 38));
 
 
-/*function calculatesFarePrice(startBlock, endBlock)
-{
-    const feetPerBlock = 264;
-    const blocksTravelled = Math.abs(endBlock - startBlock);
-    const feetTravelled = blocksTravelled * feetPerBlock;
-    if (feetTravelled <= 400) {
-        fare = 0;
-    } else if (feetTravelled > 400 && feetTravelled <= 2000) {
-        fare = (feetTravelled - 400) * 0.02;
-    } else if (feetTravelled > 2000 && feetTravelled < 2500) {
-        fare = 25;
-    } else if (feetTravelled = 2500) {
-        return 'cannot travel that far';
-    }
-}*/
+
+
 
 function calculatesFarePrice(start, destination) {
 	const feetPerBlock = 264; 
@@ -64,7 +51,3 @@ else
 	return 'cannot travel that far';
 }
 }
-
-//console.log(calculatesFarePrice(34, 38));
-//console.log(calculatesFarePrice(34, 42));
-//console.log(calculatesFarePrice(34, 60));
