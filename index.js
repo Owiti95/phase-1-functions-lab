@@ -65,6 +65,6 @@ else
 }
 }
 
-console.log(calculatesFarePrice(34, 38));
-console.log(calculatesFarePrice(34, 42));
-console.log(calculatesFarePrice(34, 60));
+//console.log(calculatesFarePrice(34, 38));
+//console.log(calculatesFarePrice(34, 42));
+//console.log(calculatesFarePrice(34, 60));
